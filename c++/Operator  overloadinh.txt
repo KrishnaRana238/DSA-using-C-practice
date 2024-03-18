@@ -1,0 +1,21 @@
+Its a special feature in c++ that allow you to treat user defines data type just type built in data type is called operator overloadig
+Rules to operator overloading
+1. only existing operator can be overloaded, view operator can not be  created
+2. The overloaded operator must have atleast 1 class type operand
+3. We cannot change the basic memory of a operator.  i.e'f' will be subtraction
+4. Syntax rule for overloaded operator will remain same i.e 'f' will be need 3 operands only  
+
+2 Method to implement
+
+using membership txn "Operator"
+using friend function 
+
+
+type of operator
+1  Uninary Opertor
+!  using membership function"operator"(no argument is required)
+!  using friend function(requires 1 argument of class type)
+
+2 Binary Operator
+! using m function operator(1 argument is requires not neccesarily class type)
+! 
